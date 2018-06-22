@@ -41,7 +41,7 @@ module.exports = function imgix_url(attr, options) { // eslint-disable-line came
 
     console.log('************** imgix_url.url', url);
 
-    return url;
+    return `${url}?foo=bar`;
 
     // CASE: if you pass e.g. cover_image, but it is not set, then attr is null!
     // in this case we don't show a warning
