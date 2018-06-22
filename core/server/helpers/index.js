@@ -18,6 +18,7 @@ coreHelpers.get = require('./get');
 coreHelpers.ghost_foot = require('./ghost_foot');
 coreHelpers.ghost_head = require('./ghost_head');
 coreHelpers.img_url = require('./img_url');
+coreHelpers.imgix_url = require('./imgix_url');
 coreHelpers.is = require('./is');
 coreHelpers.has = require('./has');
 coreHelpers.lang = require('./lang');
@@ -51,6 +52,7 @@ registerAllCoreHelpers = function registerAllCoreHelpers() {
     registerThemeHelper('has', coreHelpers.has);
     registerThemeHelper('is', coreHelpers.is);
     registerThemeHelper('img_url', coreHelpers.img_url);
+    registerThemeHelper('imgix_url', coreHelpers.imgix_url);
     registerThemeHelper('lang', coreHelpers.lang);
     registerThemeHelper('meta_description', coreHelpers.meta_description);
     registerThemeHelper('meta_title', coreHelpers.meta_title);

@@ -555,6 +555,10 @@
                 "attrIsRequired": "Attribute is required e.g. \\{\\{img_url feature_image\\}\\}",
                 "attrIsUnknown": "Attribute passed to \\{\\{img_url\\}\\} is unknown"
             },
+            "imgix_url": {
+                "attrIsRequired": "Attribute is required e.g. \\{\\{imgix_url feature_image\\}\\}",
+                "attrIsUnknown": "Attribute passed to \\{\\{imgix_url\\}\\} is unknown"
+            },
             "template": {
                 "templateNotFound": "Template {name} not found."
             }
